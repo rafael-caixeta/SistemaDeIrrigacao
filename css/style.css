@@ -1,0 +1,129 @@
+html{
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f3f3f3;
+}
+#wrapper {
+   	 padding-top: 40px;
+   	position: relative;
+    	width: 530px;
+    	height: 600px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        font-family: arial;
+}
+
+#topo {
+	width: 100%;
+	height: 560px;
+	overflow: hidden;
+	position: relative;
+	padding-top: 40px;
+	box-sizing: border-box;
+	background: #e5eecd; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  #e5eecd 0%, #a1c24b 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#e5eecd), color-stop(100%,#a1c24b)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  #e5eecd 0%,#a1c24b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  #e5eecd 0%,#a1c24b 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #e5eecd 0%,#a1c24b 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #e5eecd 0%,#a1c24b 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5eecd', endColorstr='#a1c24b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+#planta {
+	width: 335px;
+	height: 478px;
+	background-image: url('https://www.dropbox.com/home/SistemaDeIrrigacao/imgs/planta.png');	
+	margin: 0 auto;
+	position: relative;
+}
+#planta > div {
+	width: 124px;
+	height: 124px;
+	background-image: url('https://www.dropbox.com/home/SistemaDeIrrigacao/imgs/balao.png');	
+	position: absolute;
+	top: 69px;
+	left: 367px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #38bbff;
+	padding-top: 46px;
+	z-index: 1;
+}
+#planta2  {
+	width: 124px;
+	height: 124px;
+	background-image: url('https://www.dropbox.com/home/SistemaDeIrrigacao/imgs/balao.png');	
+	position: absolute;
+	top: 380px;
+	left: 820px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #38bbff;
+	padding-top: 46px;
+	z-index: 2;
+}
+
+#conteudo {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+#grafico {
+	width: 1000px;
+	height: 300px;
+	padding: 15px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(173,173,173,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(173,173,173,1);
+	box-shadow: 0px 0px 10px 0px rgba(173,173,173,1);
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	color: #393939;
+	font-weight: 300;
+	text-decoration: none;
+	text-align: center;
+}
+#tab h1 {
+	margin: 0;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #393939;
+	font-weight: 300;
+	text-decoration: none;
+}
+#releTitulo {
+	float: left;
+}
+#inputMinutos, #porcetRele, #inputMaxDados{
+	width: 60px;
+}
+#configTitulo {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#configTitulo > li {
+	display: inline;
+}
+.bootstrap-switch {
+	margin: 12px;
+}
+.input {
+	width: auto;
+}
+#rele > form {
+	display: none;
+}
